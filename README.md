@@ -11,3 +11,7 @@ The stand-alone DDL conversion tool that used to be hosted at sql.phpmix.com was
 This tool can be seen, in action, here:
 
 http://phpseclib.sourceforge.net/sql/
+
+### Known Issues
+
+ALTER TABLEs don't work in MSSQL. See `sql_builder_mssql::alter_table`
