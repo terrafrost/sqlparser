@@ -158,7 +158,7 @@ else
 		echo '<b style="color: orange">Warning(s)</b>:';
 		foreach ($sql_parser->warnings as $warning)
 		{
-			echo '<br />' . htmlspecialchars($warning['message']);
+			echo '<br />' . $warning['message'];
 		}
 	}
 
